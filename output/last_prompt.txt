@@ -1,0 +1,181 @@
+You are an expert e-commerce content writer. Generate product content based on the following instructions.
+
+**PROMPTS (How to write):**
+- Title Prompt: You are an Amazon marketplace listing specialist.
+
+Task:
+Create an Amazon-compliant product title using the provided product details, strictly following Amazon India product title requirements and best practices.
+
+Mandatory title rules:
+- Title must not exceed 200 characters including spaces
+- Prefer 80 characters or fewer for mobile optimisation
+- Do NOT include promotional phrases or subjective claims
+- Do NOT repeat the same word more than twice
+- Do NOT use ALL CAPS
+- Capitalise the first letter of each word, except articles, conjunctions, and prepositions
+- Use numerals instead of words for numbers
+- Use only standard letters and numbers
+- Avoid prohibited special characters (!, $, ?, _, {, }, ^, ¬, ¦)
+- Use punctuation only when necessary (comma, hyphen, slash, ampersand, period)
+- Do not include emojis, symbols, guarantees, or comparisons
+- Title must clearly and concisely describe the physical product
+
+Recommended structure (use if applicable):
+Brand Name + Style or Variant + Product Type + Key Attribute + Colour + Size or Pack Count + Model Number
+
+Additional guidelines:
+- Keep the title concise and readable
+- Avoid keyword stuffing, redundant phrases, and unnecessary synonyms
+- Include only information that helps customers quickly understand the product
+- Maintain consistency with bullet points and description
+- For parent ASINs, do NOT include colour or size
+- For child ASINs, include colour and size only
+
+Input:
+I will provide product details such as brand, product type, fabric, style, colour, size, pack count, and model or SKU.
+
+Output requirements:
+- Return only the final Amazon-ready product title
+- Do not include explanations, options, or extra text
+- Ensure the title is suitable for Amazon.in customers
+
+- Description Prompt: You are an Amazon marketplace content expert.
+
+Task:
+Write a product description for an Amazon listing using the provided product details, strictly following Amazon Description field guidelines.
+
+Mandatory rules:
+- Description is optional, but if written must be fully compliant
+- Use a single continuous paragraph only
+- Do NOT use line breaks, carriage returns, tabs, bullet points, or spacing tricks
+- Do NOT use HTML, HTML escape codes, or formatting tags
+- Length must be within 1 to 2000 characters
+- Use only plain text with normal spaces
+- Use correct grammar and readable sentence flow
+
+Content guidelines:
+- Describe what the product is and how it can be used
+- Highlight key features and customer benefits naturally in sentence form
+- Keep tone informative and neutral; avoid marketing or promotional language
+- Maintain consistency with title and bullet points
+- Avoid repetition of the same information excessively
+
+Strictly avoid:
+- Line breaks or multiple paragraphs
+- Bullet points or numbered lists
+- Emojis, special symbols, or trademark characters
+- Guarantees, refunds, or return promises
+- Comparative or subjective claims
+- External references, links, or company information
+- References to other products or ASINs
+- Prohibited claims such as eco-friendly, anti-bacterial, bamboo, soy
+
+Input:
+I will provide raw product details such as fabric, design, fit, care instructions, and package contents.
+
+Output format:
+- Return only the final Amazon-ready product description
+- Output must be a single paragraph with no line breaks
+
+- Bullet Prompt: You are an Amazon marketplace content specialist.
+
+Task:
+Create high-quality Amazon bullet points for a product using the provided product details, strictly following Amazon bullet point guidelines.
+
+Mandatory bullet point rules:
+- Begin each bullet point with a capital letter
+- Write sentence fragments only; do NOT use end punctuation
+- Include at least three bullet points
+- Each bullet point must be between 10 and 255 characters
+- Use a clear header followed by a colon and description
+- Use semicolons to separate phrases within a bullet point if needed
+- Write numbers one to nine in words; use digits only for measurements
+- Include a space between number and unit for measurements
+- Highlight product features, benefits, and customer use cases
+- Maintain consistency across variants; avoid duplication with title or description
+- Do not include brand marketing stories or promotional language
+
+Strictly avoid the following:
+- Emojis, special characters, symbols, or trademark signs
+- Placeholder text such as NA, N/A, TBD, not applicable
+- ASINs, external links, website names, or contact details
+- Guarantees, refunds, or return promises
+- Subjective, comparative, or unverified claims
+- Prohibited claims such as eco-friendly, anti-bacterial, bamboo, soy
+- Repeating the same information across bullet points
+- References to competitor products or other ASINs
+
+Input:
+I will provide raw product details such as fabric, fit, features, care instructions, package contents, and usage.
+
+Output requirements:
+- Return only the final Amazon-ready bullet points
+- No explanations, no headings, no extra commentary
+- Each bullet point must contain unique information
+- Ensure bullets are suitable for Amazon India customers
+
+
+**REFERENCE DATA (What to base content on):**
+
+Title Reference Data:
+Women's Vichitra Silk Embroidered Straight Kurta with Pant And Dupatta Sets
+
+Description Reference Data:
+"Women's Vichitra Silk Embroidered Straight Kurta with Pant And Dupatta Sets
+
+Kurta Design:-
+Vichitra Silk Fabric
+Embroidered Work
+Straight Shape
+Round Neck, 3/4th Sleeve
+
+Bottom Design:-
+Vichitra Silk Fabric
+Elasticated waistband
+37 Inch Length
+Slip-on closure
+
+Dupatta Design:-
+Vichitra Silk Fabric
+Laced Work
+2.10 Meter"
+
+Bullet Reference Data:
+Kurta Fabric:- Vichitra Silk || Bottom Fabric:- Vichitra Silk || Dupatta Fabric:- Vichitra Silk	Kurta Work:- Embroidered || Dupatta Work:- Laced	Package Contains:- 1 Set : KURTA, PANT AND DUPATTA
+
+
+**GENERATION REQUIREMENTS:**
+1. Generate EXACTLY 1 titles, 1 descriptions, 4 bullets
+2. Each title should be approximately 20 characters
+3. Each description should be approximately 100 characters
+4. Each bullet should be approximately 100 characters
+5. Use the prompts to guide your writing style
+6. Use the reference data to understand what type of content to create
+
+**CRITICAL OUTPUT FORMAT - FOLLOW EXACTLY:**
+
+TITLES:
+Title 1: [Write actual title here]
+Title 2: [Write actual title here]
+Title 3: [Write actual title here]
+...
+
+DESCRIPTIONS:
+Description 1: [Write actual description here]
+Description 2: [Write actual description here]
+...
+
+BULLETS:
+Bullet 1: [Write actual bullet here]
+Bullet 2: [Write actual bullet here]
+...
+
+**IMPORTANT RULES:**
+- Start IMMEDIATELY with "TITLES:" followed by numbered items
+- Each item must be on its OWN LINE
+- Use format "Title 1:", "Description 2:", "Bullet 3:" for EVERY item
+- Write REAL content - NO placeholders like "[write content here]"
+- Follow the character length guidelines closely
+- Base content on the reference data provided
+
+Now generate the content. Start with "TITLES:" immediately.

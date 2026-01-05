@@ -1,0 +1,9 @@
+__pycache__/
+.env
+*.env
+venv/
+.env.local
+*.pt
+*.h5
+*.ckpt
+.ipynb_checkpoints/
