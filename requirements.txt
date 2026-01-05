@@ -1,17 +1,14 @@
-# Core FastAPI dependencies
 fastapi==0.104.1
 uvicorn[standard]==0.24.0
 python-multipart==0.0.6
-
-# ASGI server
 starlette==0.27.0
 
-# Browser automation
+# Browser automation (still problematic, see below)
 playwright==1.40.0
 
 # File handling
 python-magic==0.4.27
 aiofiles==23.2.1
 
-# Additional utilities
-Pillow==10.1.0
+# Image utils
+Pillow>=10.2.0,<11
